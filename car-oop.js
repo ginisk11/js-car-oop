@@ -17,21 +17,17 @@ toString(){
 
 }
 
-class Car extends Vehicle{
-	constructor(){
-super(make,model,year);
-this.numWheels=4;
+class Car extends Vehicle {
+	constructor(make, model, year) {
+	  super(make, model, year);
+	  this.numWheels = 4;
 	}
-
-numWheels(){
-return 4;
-
-}
+  
 
 }
 
 class Motorcycle extends Vehicle{
-	constructor(){
+	constructor(make, model, year){
 super(make,model,year);
 this.numWheels=2;
 	}
